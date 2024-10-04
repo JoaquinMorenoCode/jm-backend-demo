@@ -2,12 +2,13 @@
 
 http://127.0.0.1:8000 - Rutas en ambas aplicaciones:
 
-[GET] /products/ - Listar todos los productos
-[GET] /products/{id}/ - Obtener un producto por ID
-[POST] /products/ - Crear un nuevo producto
-[PUT] /products/{id}/ - Actualizar un producto existente
-[DELETE] /products/{id}/ - Eliminar un producto
+- **GET** /products/ - Listar todos los productos
+- **GET** /products/{id}/ - Obtener un producto por ID
+- **POST** /products/ - Crear un nuevo producto
+- **PUT** /products/{id}/ - Actualizar un producto existente
+- **DELETE** /products/{id}/ - Eliminar un producto
 
+- Example - http://127.0.0.1:8000/products/1/
 # jm-crud-app | Laravel
 
 ## Requisitos
@@ -57,9 +58,10 @@ Ve a la página del repositorio y descarga el archivo ZIP. Luego, mueve la carpe
 
 ## Documentación del Proceso de Aprendizaje:
 
- Django :   https://youtu.be/rHux0gMZ3Eg?si=bTdAmrDqfZHhXngz,
-            https://www.youtube.com/watch?v=OJdFj5hPAKs&t=86s
-            https://docs.djangoproject.com/en/5.1/ref/validators/
+ Django :  
+- https://youtu.be/rHux0gMZ3Eg?si=bTdAmrDqfZHhXngz,
+- https://www.youtube.com/watch?v=OJdFj5hPAKs&t=86s
+- https://docs.djangoproject.com/en/5.1/ref/validators/
 
     Aprendi a usar el framework siguiendo tutoriales en YouTube, consultando Stack Overflow para algunas configuraciones desactualizadas y la documentacion de Django. 
     El mayor desafio fue la instalacion de Pipenv en mi maquina, ya que enfrente problemas de compatibilidad con Python debido a la version de la MS Store y algunas
@@ -96,12 +98,12 @@ Antes de comenzar, asegúrate de tener instalado:
 
     DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'jm-django-app',
-        'USER' : 'USER',
-        'PASSWORD' : 'PASSWORD',
-        'HOST' : 'localhost',
-        'PORT' :'3306'
+        'ENGINE': 'django.db.backends.mysql', <br>
+        'NAME': 'jm-django-app',<br>
+        'USER' : 'USER',<br>
+        'PASSWORD' : 'PASSWORD',<br>
+        'HOST' : 'localhost',<br>
+        'PORT' :'3306'<br>
     }
 }
 
